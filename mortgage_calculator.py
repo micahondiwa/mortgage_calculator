@@ -33,4 +33,7 @@ col2.metric(label="Total Repayments", value=f"${total_payments:,.0f}")
 col3.metric(label="Total Interest", value=f"${total_interest:,.0f}")
 
 # Loan Repayment schedule
+schedule = []
+remaining_balance = loan_amount
+
 
