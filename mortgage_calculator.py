@@ -4,3 +4,5 @@ import matplotlib.pyplot as plt
 import math 
 
 st.title("Mortgage Repayment Calculator")
+
+st.write('### Input Data')
