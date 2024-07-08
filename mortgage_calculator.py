@@ -22,3 +22,8 @@ monthly_payment = (
     / ((1 + monthly_interest_rate) ** number_of_payments - 1)
 )
 
+# Display the repayments
+total_payments = monthly_payment * number_of_payments
+total_interest = total_payments - loan_amount
+
+
