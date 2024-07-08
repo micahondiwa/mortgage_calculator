@@ -36,4 +36,6 @@ col3.metric(label="Total Interest", value=f"${total_interest:,.0f}")
 schedule = []
 remaining_balance = loan_amount
 
-
+for i in range(1, number_of_payments + 1):
+    interest_payment = remaining_balance * monthly_interest_rate
+    principal_balance
