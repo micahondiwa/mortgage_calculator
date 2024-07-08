@@ -54,7 +54,7 @@ for i in range(1, number_of_payments + 1):
 
 df = pd.DataFrame(
     schedule,
-    columns=["Month", "Payment", "Principal", "Interest", "Remaining Balance", " Year"],
+    columns=["Month", "Payment", "Principal", "Interest", "Remaining Balance", "Year"],
     )
 
 # Display df as chart
