@@ -15,3 +15,4 @@ loan_term = col2.number_input("Loan Term (in years)", min_value=1,value=30)
 # Calculate the repayments
 loan_amount = home_value - deposit
 monthly_interest_rate = (interest_rate / 100) / 12
+number_of_payments = loan_term * 12
